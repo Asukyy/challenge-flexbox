@@ -10,8 +10,6 @@ body {
     justify-content:center;
     margin-top:150px;
     flex-wrap:wrap;
-
-    
 }
 
 .para1 {
@@ -22,7 +20,6 @@ body {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-
 
 .sedans{
     margin-top:60px;
@@ -35,7 +32,6 @@ body {
     font-family: 'Big Shoulders Display', cursive;
     letter-spacing:3px;
     margin-left:50px;
-
 }
 
 .para1 p {
@@ -46,13 +42,11 @@ body {
     line-height:25px;
 }
 
-
 .para2 {
     display: block;
     width: 330px;
     height: 520px;
     background-color: hsl(184, 100%, 22%);
-
 }
 
 .suvs {
@@ -106,7 +100,7 @@ body {
     line-height: 25px;
 }
 
-.bouton {
+.bouton, .bouton1, .bouton2 {
     display: block;
     background-color: white;
     width: 150px;
@@ -116,73 +110,46 @@ body {
     border-radius: 50px;
 }
 
-    .bouton:hover {
-        background:transparent;
-        border:solid 2px;
-        color:white;
-    }
-
- .bouton:hover p{
-     color:white;
- }
-
-    .bouton p {
-        color: hsl(31, 77%, 52%);
-        display: flex;
-        position: absolute;
-        left: 500px;
-        font-family: 'Lexend Deca', sans-serif;
-    }
-
-.bouton1 {
-    display: block;
-    background-color: white;
-    width: 150px;
-    height: 50px;
-    margin-left: 50px;
-    margin-top: 100px;
-    border-radius: 50px;
-}
-
-.bouton1:hover {
+.bouton:hover, .bouton1:hover, .bouton2:hover {
     background: transparent;
     border: solid 2px;
     color: white;
 }
 
-    .bouton1:hover p {
-        color: white;
-    }
-    .bouton1 p {
-        color: hsl(184, 100%, 22%);
-        position: absolute;
-        left: 830px;
-        font-family: 'Lexend Deca', sans-serif;
-    }
-
-.bouton2 {
-    display: block;
-    background-color: white;
-    width: 150px;
-    height: 50px;
-    margin-left: 50px;
-    margin-top: 100px;
-    border-radius: 50px;
-}
-
-.bouton2:hover {
-    background: transparent;
-    border: solid 2px;
+.bouton:hover p, .bouton1:hover p, .bouton2:hover p {
     color: white;
 }
 
-    .bouton2:hover p {
-        color: white;
-    }
+.bouton p {
+    color: hsl(31, 77%, 52%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100px;
+    height: 100%;
+    font-family: 'Lexend Deca', sans-serif;
+}
 
-    .bouton2 p {
-        color: hsl(179, 100%, 13%);
-        position: absolute;
-        left: 1160px;
-        font-family: 'Lexend Deca', sans-serif;
-    }
+.bouton1 p {
+    color: hsl(184, 100%, 22%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100px;
+    height: 100%;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.bouton2 p {
+    color: hsl(179, 100%, 13%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100px;
+    height: 100%;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
